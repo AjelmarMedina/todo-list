@@ -9,7 +9,6 @@ import useSWR from 'swr'
 
 const fetcher = url => axios.get(url)
   .then((res) => {
-    // console.log(res.data);
     return res.data;
   })
   .catch((e) => {

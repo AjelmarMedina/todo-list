@@ -21,7 +21,7 @@ export const ACTIONS = {
     .catch((e) => {
       console.error('Something went wrong with fetching your Todo List');
       console.error(e);
-      return [];
+      todoList = [];
     })
     return todoList;
   },
