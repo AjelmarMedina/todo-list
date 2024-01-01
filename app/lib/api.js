@@ -1,7 +1,9 @@
 import axios from 'axios';
+// import 'dotenv/config';
+
 
 // const SERVER = `http://${process.env.SERVER_HOST ?? 'localhost'}:${process.env.SERVER_PORT ?? '5000'}`;
-const SERVER = 'http://localhost:5000/'
+const SERVER = 'http://localhost:5000'
 
 /**
  * API interactions with the server (db.js)
